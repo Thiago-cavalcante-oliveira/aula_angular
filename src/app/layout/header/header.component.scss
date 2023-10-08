@@ -1,0 +1,21 @@
+.grupobotoes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: forestgreen;
+  border-radius: 5px;
+  box-shadow: dimgray ;
+}
+
+
+.botao{
+  width: 350px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}

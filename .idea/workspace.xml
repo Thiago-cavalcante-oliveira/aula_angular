@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="262de317-9dff-4cc5-b43b-0da691ce4233" name="Changes" comment="criando os primeiros componentes">
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/login.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/login.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/usuario.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula0410/src/app/layout/login/usuario.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/carros/carrodetails/carrodetails.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/carros/carrodetails/carrodetails.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/carros/carrodetails/carrodetails.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/carros/carrodetails/carrodetails.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/carros/carroslist/carroslist.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/carros/carroslist/carroslist.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/carros/carroslist/carroslist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/carros/carroslist/carroslist.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/livros/livrodetail/livrodetail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/livros/livrodetail/livrodetail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/livros/livrodetail/livrodetail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/livros/livrodetail/livrodetail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/livros/livroslist/livroslist.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/livros/livroslist/livroslist.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula0410/src/app/livros/livroslist/livroslist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410/src/app/livros/livroslist/livroslist.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410" beforeDir="false" afterPath="$PROJECT_DIR$/aula0410" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula0410/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1696542578090" duration="3165000" />
       <workItem from="1696545792151" duration="6376000" />
       <workItem from="1696622020407" duration="3389000" />
-      <workItem from="1696804148148" duration="2087000" />
+      <workItem from="1696804148148" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="criando os primeiros componentes">
       <option name="closed" value="true" />
@@ -113,11 +110,42 @@
       <option name="project" value="LOCAL" />
       <updated>1696457110086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criando os primeiros componentes">
+      <option name="closed" value="true" />
+      <created>1696806307933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696806307933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

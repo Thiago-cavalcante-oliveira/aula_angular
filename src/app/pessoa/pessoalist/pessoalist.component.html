@@ -1,0 +1,34 @@
+<section class="pessoa">
+
+  <table class="tabela">
+    <tr>
+      <th class="titulo-tabelas">Nome:</th>
+      <th class="titulo-tabelas">Idade:</th>
+    </tr>
+    <tr class="texto-tabela" *ngFor="let pessoa of lista; let i=index">
+      <td *ngIf="pessoa.idade>10">{{pessoa.nome}}</td>
+      <td *ngIf="pessoa.idade>10">{{pessoa.idade}}</td>
+      <td>
+        <input class="edit" type="button" value="Editar" (click)="openModal(content,i)">
+      </td>
+    </tr>
+  </table>
+</section>
+<div class="divCadastrar">
+  <input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModal(content, -1)">
+</div>
+
+
+
+
+
+<ng-template #content let-modal>
+  <div class="modal-header"><h4 class="modal-title" *ngIf="editar">Editar</h4>
+    <h4 class="modal-title" *ngIf="!editar">Cadastrar</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+   <app-pessoadetails [injetaPessoa]="enviarPessoa" (retorno)="addPessoa($event)"></app-pessoadetails>
+  </div>
+
+</ng-template>

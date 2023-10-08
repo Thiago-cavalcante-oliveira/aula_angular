@@ -1,0 +1,14 @@
+<section class="div_livro_details">
+  <div class="div_input" >
+<label for="tituloLivro">Titulo</label>
+<input class="cadastrar" type="text"  name="tituloLivro"  id="tituloLivro" [(ngModel)]="livro.titulo" >
+  </div>
+  <div class="div_input">
+  <label for="autorLivro">Autor</label>
+<input class="cadastrar" type="text" name="autorLivro"  id="autorLivro" [(ngModel)]="livro.autor" >
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-light" (click)="modalService.dismissAll('Close click')">Sair</button>
+    <button type="button" class="btn btn-primary" (click)="salvar()">Salvar</button>
+  </div>
+</section>

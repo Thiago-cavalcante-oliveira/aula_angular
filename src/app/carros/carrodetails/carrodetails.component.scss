@@ -1,0 +1,32 @@
+.cadastrar{
+
+  width: 350px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.div_input{
+  display: flex;
+  flex-direction: column;
+}
+
+.div_livro_details{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.edit{
+  background: dodgerblue;
+  color: white;
+  font-family: Calibri;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+
+.divCadastrar{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

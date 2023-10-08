@@ -1,0 +1,20 @@
+.cadastrar{
+
+  width: 350px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.div_input{
+  display: flex;
+  flex-direction: column;
+}
+
+.div_livro_details{
+  display: flex;
+  justify-content: space-around;
+
+}
+.btn btn-light{
+  background: red ;
+}

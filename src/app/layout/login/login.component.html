@@ -1,0 +1,14 @@
+<section class="organiza_pagina">
+  <header>
+    Login
+  </header>
+<body class="organiza_pagina">
+  <form action="login.php" method="post">
+    <input type="text" name="username" placeholder="Usuario" required [(ngModel)]="usuario.login" >
+    <input type="password" name="password" placeholder="Senha" required [(ngModel)]="usuario.senha">
+    <input type="button" value="Login" (click)="logar()">
+  </form>
+</body>
+
+
+</section>

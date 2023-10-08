@@ -1,0 +1,33 @@
+<section class="valor">
+  <table class="tabela">
+    <tr>
+      <th class="titulo-tabelas">Nome: </th>
+      <th class="titulo-tabelas">Ano: </th>
+      <th class="titulo-tabelas"> Editar</th>
+    </tr>
+    <tr class="texto-tabela" *ngFor="let livro of listalivros; let i=index">
+      <td>{{livro.titulo}} </td>
+      <td>{{livro.autor}} </td>
+      <td>
+        <input class="edit" type="button" value="Editar" (click)="openModal(content,i)">
+      </td>
+    </tr>
+  </table>
+
+
+
+</section>
+<div class="divCadastrar" >
+<input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModal(content, -1)">
+</div>
+
+<ng-template #content let-modal>
+  <div class="modal-header"><h4 class="modal-title" *ngIf="editar">Editar</h4>
+    <h4 class="modal-title" *ngIf="!editar">Cadastrar</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <app-livrodetail [injetaLivro]="enviarLivro" (retorno)="addLivro($event)"></app-livrodetail>
+  </div>
+
+</ng-template>

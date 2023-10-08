@@ -1,0 +1,46 @@
+.tabela {
+  border: black 1px solid;
+  width: 500px;
+  font-family: "franklin-gothic-medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+.titulo-tabelas {
+  font-size: 20px;
+  background: dimgray;
+  border: dimgray 1px solid;
+}
+.texto-tabela{
+  font-size: 16px;
+  border: #000 1px solid;
+}
+
+td{
+  border: #000 1px solid;
+  text-align: center;
+}
+
+.valor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.edit{
+  background: dodgerblue;
+  color: white;
+  font-family: Calibri;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+.cadastrar{
+  border-radius: 10px;
+  background-color: forestgreen;
+  font-weight: bold;
+
+}
+.divCadastrar{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
