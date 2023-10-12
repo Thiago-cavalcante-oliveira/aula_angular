@@ -1,23 +1,24 @@
 
 
 <section class="valor">
-  <app-header></app-header>
+
   <table class="tabela">
     <tr>
       <th class="titulo-tabelas">Nome: </th>
       <th class="titulo-tabelas">Ano: </th>
     </tr>
-    <tr class="texto-tabela" *ngFor="let carro of listacarro; let i=index">
+    <tr class="texto-tabela" *ngFor="let carro of listacarro">
       <td>{{carro.nome}} </td>
       <td>{{carro.ano}} </td>
-      <td>
-        <input class="edit" type="button" value="Editar" (click)="openModal(content, i)">
+      <td class="ajustaBotoes">
+        <input class="edit" type="button" value="Editar" (click)="openModal(content, carro)">
+        <input class="delete" type="button" value="Deletar" (click)="delete(carro)">
       </td>
     </tr>
   </table>
 </section>
 <div class="divCadastrar" >
-  <input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModal(content, -1)">
+  <input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModalCadastrar(content, -1)">
 </div>
 
 <ng-template #content let-modal>

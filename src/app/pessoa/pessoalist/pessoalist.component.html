@@ -2,20 +2,24 @@
 
   <table class="tabela">
     <tr>
+      <th class="titulo-tabelas">ID</th>
       <th class="titulo-tabelas">Nome:</th>
       <th class="titulo-tabelas">Idade:</th>
+
     </tr>
-    <tr class="texto-tabela" *ngFor="let pessoa of lista; let i=index">
+    <tr class="texto-tabela" *ngFor="let pessoa of lista">
+      <td *ngIf="pessoa.idade>10">{{pessoa.id}}</td>
       <td *ngIf="pessoa.idade>10">{{pessoa.nome}}</td>
       <td *ngIf="pessoa.idade>10">{{pessoa.idade}}</td>
-      <td>
-        <input class="edit" type="button" value="Editar" (click)="openModal(content,i)">
+      <td class="ajustaBotoes">
+        <input class="edit" type="button" value="Editar" (click)="openModal(content, pessoa)">
+        <input class="delete" type="button" value="Deletar" (click)="delete(pessoa)">
       </td>
     </tr>
   </table>
 </section>
 <div class="divCadastrar">
-  <input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModal(content, -1)">
+  <input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModalCadastrar(content)">
 </div>
 
 

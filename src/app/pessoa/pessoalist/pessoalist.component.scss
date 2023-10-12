@@ -54,3 +54,17 @@ td{
 
 }
 
+.delete {
+  background: red;
+  color: white;
+  font-family: Calibri, serif;
+  font-size: medium;
+  border-radius: 5px;
+  border-left: 8px;
+}
+
+.ajustaBotoes{
+  display: flex;
+  justify-content: space-around;
+}
+

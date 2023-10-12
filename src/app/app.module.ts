@@ -16,6 +16,7 @@ import { CarrodetailsComponent } from './carros/carrodetails/carrodetails.compon
 import {FormsModule} from "@angular/forms";
 import { ModelComponent } from './layout/model/model.component';
 import { LoginComponent } from './layout/login/login.component';
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { LoginComponent } from './layout/login/login.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

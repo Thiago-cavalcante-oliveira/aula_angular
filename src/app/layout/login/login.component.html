@@ -1,14 +1,23 @@
+<body class="bg_image">
 <section class="organiza_pagina">
   <header>
     Login
   </header>
-<body class="organiza_pagina">
-  <form action="login.php" method="post">
+<div >
+
+    <div class="organiza_input">
     <input type="text" name="username" placeholder="Usuario" required [(ngModel)]="usuario.login" >
+    </div>
+    <div class="organiza_input">
     <input type="password" name="password" placeholder="Senha" required [(ngModel)]="usuario.senha">
-    <input type="button" value="Login" (click)="logar()">
-  </form>
-</body>
+    </div>
+    <div class="organiza_input">
+    <input class="logar" type="button" value="Logar agora" (click)="logar()">
+      <input type="button" value="Limpar" (click)="limpar()">
+    </div>
+
+</div>
 
 
 </section>
+</body>

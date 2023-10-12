@@ -1,5 +1,5 @@
 import {Component, EventEmitter, inject, Input, OnInit, Output} from '@angular/core';
-import {Livro} from "../livro";
+import {Livro} from "../../models/livro";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 
 @Component({

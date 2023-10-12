@@ -5,11 +5,12 @@
       <th class="titulo-tabelas">Ano: </th>
       <th class="titulo-tabelas"> Editar</th>
     </tr>
-    <tr class="texto-tabela" *ngFor="let livro of listalivros; let i=index">
+    <tr class="texto-tabela" *ngFor="let livro of listalivros">
       <td>{{livro.titulo}} </td>
       <td>{{livro.autor}} </td>
-      <td>
-        <input class="edit" type="button" value="Editar" (click)="openModal(content,i)">
+      <td class="ajustaBotoes">
+        <input class="edit" type="button" value="Editar" (click)="openModal(content, livro)">
+        <input class="delete" type="button" value="Deletar" (click)="delete(livro)">
       </td>
     </tr>
   </table>
@@ -18,7 +19,7 @@
 
 </section>
 <div class="divCadastrar" >
-<input class="cadastrar" type="button" value="Cadastrar novo" (click)="openModal(content, -1)">
+<input class="cadastrar" type="button" value="Cadastrar novo" (click)="OpenModalCadastrar(content)">
 </div>
 
 <ng-template #content let-modal>

@@ -15,11 +15,17 @@ export class LoginComponent {
 
   logar() {
 
-    if (this.usuario.login != "admin" && this.usuario.senha != "admin") {
+    if (this.usuario.login != "admin" || this.usuario.senha != "admin") {
       alert("senha ou login incorretos");
+
     } else {
-      this.roteador.navigate(['carros']);
+      this.roteador.navigate(['/index']);
     }
+  }
+
+  limpar(){
+    this.usuario.login = '';
+    this.usuario.senha = '';
   }
 
 
